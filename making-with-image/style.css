@@ -1,59 +1,51 @@
 body{
-    background-color:blue;
-    background-image:url('square.png');
-    background-repeat:repeat;
-    background-size:40px;
-    background-position: center;
-    background-attachment: scroll;
+
+        background-color:blue;
+        background-image:url('square.png');
+        background-repeat:repeat;
+        background-size:50px;
+        background-position: center;
+        background-attachment: scroll;
+    
 }
+
 img{
     width: 100%;
 }
 div.layout{
     display: flex;
 }
-div.boy{
-    width: 20%; 
-}
-div.cow{
-    width: 30%;
-    margin-left: 10% ;
-}
-div.profile{
-    width: 15%;
-    margin-left: 20%;
-}
-div.random.a{
-    width:80%;
-    opacity: 100%;
-}
-div.error.one{
-    width: 50%;
-}
-div.random.three{
-    background-color:blue;
-}
-div.random.x{
-    width:100%;
-}
-div.no.boy{
-    width: 15%;
-}
-div.random.b{
+
+div.a{
     opacity: 0%;
 }
-div.circle{
-    margin-left: 20%;
-}
-div.nocow{
-    margin-left: 10%;
-}
-div.row{
-    display: flex;
+div.one{
     width: 50%;
 }
-div.random.two{
-    width: 100%;
+div.three{
+    background-color:blue;
+}
+div.x{
+    width:50%;
+}
+div.b{
+    opacity: 100%;
+}
+div.two{
+    border: 10px color red;
+}
+div.c{
+    width: 40%;
+}
+
+div.three{
+    width: 70%;
+}
+div.y{
+    border-radius: 40%;
+}
+div.z{
+    background-color: #d6dcdb;
 }
 
 div.random{
