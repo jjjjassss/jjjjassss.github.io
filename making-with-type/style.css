@@ -1,0 +1,135 @@
+@font-face{
+    font-family:'source code pro' ;
+    src:url('SourceCodePro-Black.woff');
+    
+}
+@font-face{
+    font-family:'manifont grotesk';
+    src: url('ManifontGroteskBook.woff')
+}
+@font-face {
+    font-family: 'source code pro regular';
+    src: url('SourceCodePro-VariableFont_wght.woff');
+}
+body{
+    background-color:#d6dcdb;
+}
+div.create{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    font-family: 'manifont grotesk';
+    color: #5b4291;
+    font-size: 40px;
+}
+div.subheading{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'manifont grotesk';
+    color: #5b4291;
+    font-size: 90px;
+}
+
+div.gradient{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    color:#5b4291;
+    width: 90%;
+    height: auto;
+    font-size: 90pt;
+    font-family:'source code pro';
+
+}
+
+
+div.try{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-family:'manifont grotesk';
+    color: #5b4291;
+    font-size: 50;
+}
+div.usernames{
+    margin-top: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 90px;
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+div.col.c{
+    font-size: 80;
+    color: #160046;
+    
+    margin-left: 60px;
+}
+div.col.a{
+    font-size: 40;
+    color: #160046;
+    width: 45%;
+    margin-left: 80px;
+}
+div.col.b{
+    font-size: 100px;
+    margin-left: 90px;
+    color:#160046;
+    
+}
+div.one{
+    background: linear-gradient(to bottom right, #5b4291, #d1448d, #cc9b27 );;
+    
+}
+div.two{
+    background-color: #160046;
+}
+div.three{
+    background-color:#d6dcdb;
+}
+div.x{
+    font-family:'source code pro regular'; 
+}
+div.y{
+    font-family:'manifont grotesk';
+}
+div.z{
+    font-family:'source code pro' ;
+}
+
+div.vertical1{
+    border-left: 3px solid black ;
+    height: 100%;
+    width: 3px;
+    left: 60px;
+    margin-top: -50;
+    position:fixed;
+
+}
+div.vertical2{
+    border-right: 3px solid black;
+    height: 100%;
+    width: 3px;
+    right: 60px;
+    margin-top: -50;
+    position: fixed;
+
+}
+div.bordertop{
+    margin-top: 60px;
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    flex-wrap: wrap;
+    display: flex;
+}
+div.random{
+    transition:1s;
+}
+
