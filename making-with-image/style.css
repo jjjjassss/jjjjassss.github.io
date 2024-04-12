@@ -55,3 +55,7 @@ div.row{
 div.random.two{
     width: 100%;
 }
+
+div.random{
+    transition: 1s;
+}
