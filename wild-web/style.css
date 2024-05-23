@@ -10,8 +10,9 @@
 /* setup */
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 255, 229);
     background-image: url(images/page\ 3.png) ;
+
     background-repeat: no-repeat;
     background-size: 1500px;
     color: rgb(16, 16, 15);
@@ -266,7 +267,7 @@ div.body{
  /* rows at bottom */
 
  div.row{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(63, 50, 40);
     padding: 10px;
  }
  div.textmedium{
@@ -279,6 +280,6 @@ div.body{
  }
 
  div.row2{
-    border-bottom: 2px solid rgb(91, 23, 76);
+    border-bottom: 2px solid rgb(63, 50, 40);
     padding-bottom: 60px;
  }
