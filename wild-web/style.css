@@ -10,13 +10,8 @@
 /* setup */
 
 body{
-    background-color: rgb(252, 255, 229);
-    background-image: url(images/page\ 3.png) ;
-
-    background-repeat: no-repeat;
-    background-size: 1500px;
     color: rgb(16, 16, 15);
-    margin: 10px;
+    margin: 0px;
     padding: 0px;
     font-size: 20px;
     line-height: 21px;
@@ -34,6 +29,11 @@ img{
 
 div.largetext{
     font-size: 70px;
+    line-height: 85px;
+
+}
+div.bigtext{
+    font-size: 120px;
     line-height: 85px;
 
 }
@@ -64,6 +64,20 @@ div.mono{
     font-family: 'Arial';
 }
 
+div.code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+div.codebottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 div.heading{
     text-align: center;
 }
@@ -74,19 +88,23 @@ div.textbrown{
 }
 
 div.textwhite{
-    color: rgb(171, 180, 187);
+    color: rgb(255, 255, 255);
 }
 
-div.textyellow{
-    color: rgb(255, 223, 95);
+div.textgrey{
+    color: darkgray;
 }
 
 div.textpurple{
     color: rgb(91, 23, 76);
 }
 
-div.textburgundy{
-    color: rgb(85, 34, 34);
+div.textblue{
+    color: rgb(23, 50, 251);
+}
+
+div.textblack{
+    color: rgb(0, 0, 0);
 }
 
 div.bggray{
@@ -145,6 +163,10 @@ div.w20{
     width: 20%;
 }
 
+div.w15{
+    width: 15%;
+}
+
 /* moving */
 
 div.containerone{
@@ -153,14 +175,15 @@ div.containerone{
     align-items: center;
     height: 30vh;
     overflow: hidden;
-
 }
 
 .scroll{
     display: flex;
+    flex: wrap;
     white-space: nowrap;
     margin: 0 2em;
-
+    height: 30vh;
+    align-items: center;
 }
 
 .scroll div{
@@ -169,7 +192,9 @@ div.containerone{
 }
 
 .scroll p{
-    font-size: 90px;
+    padding-top:20px ;
+    padding-bottom: 25px;
+
     
 }
 div.RightToLeft{
@@ -183,6 +208,18 @@ div.RightToLeft{
     to{
         transform: translate(-50%);
     }
+}
+
+/* sticky */
+
+div.sticky {
+    position: sticky;
+    top:10px;
+}
+
+div.fixed {
+    position:relative;
+    bottom:20px;
 }
 
 /* design */
@@ -209,6 +246,10 @@ div.side{
     margin-left: auto
 }
 
+div.otherside{
+    margin-right: auto
+}
+
 div.middle{
     margin-left: auto;
     margin-right: auto
@@ -231,6 +272,10 @@ div.body{
 }
  div.p5{
     padding: 5px;
+ }
+
+ div.mb10 {
+    margin-bottom: 10px;
  }
 
  div.p10{
@@ -264,11 +309,14 @@ div.body{
     padding-bottom: 120px;
  }
 
+ div.ptopfour{
+    padding-top: 190px;
+ }
  /* rows at bottom */
 
  div.row{
-    border-bottom: 1px solid rgb(63, 50, 40);
-    padding: 10px;
+
+    border-bottom: 1px solid black;
  }
  div.textmedium{
     font-size: 30px;
@@ -283,3 +331,61 @@ div.body{
     border-bottom: 2px solid rgb(63, 50, 40);
     padding-bottom: 60px;
  }
+
+ div.curves{
+    border-radius: 15px;
+ }
+
+ /* image treatment */
+ div.curves img{
+    border-radius: 15px;
+ }
+
+ div.curvestwo{
+    border-radius: 5px;
+ }
+
+ div.shadow{
+    background-color: white;
+    box-shadow: 10px 10px 15px rgb(67, 67, 67);
+ }
+
+ div.shadowtwo{
+    background-color: white;
+    
+ }
+
+ /* report background */
+ div.report {
+    background-color: rgb(180, 175, 131);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding:0px;
+ }
+
+ div.paper {
+    background-image: url(images/page\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+ }
+
+ div.sketch {
+    background-image: url(images/page\ 2.png);
+     
+ }
+
+ div.headline {
+    background-image: url(images/page\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+ }
+
+ /* gps wrapper */
+
+ div.gps {
+    padding: 10px;
+    background-color: lightgray;
+ }
+
