@@ -347,14 +347,16 @@ div.body{
 
  div.shadow{
     background-color: white;
-    box-shadow: 10px 10px 15px rgb(67, 67, 67);
+    box-shadow: 10px 10px 15px rgb(78, 133, 133);
  }
 
  div.shadowtwo{
-    background-color: white;
+    background-color: darkslategray;
     
  }
-
+ div.saturation{
+    filter: saturate(3);
+ }
  /* report background */
  div.report {
     background-color: rgb(180, 175, 131);
@@ -386,6 +388,6 @@ div.body{
 
  div.gps {
     padding: 10px;
-    background-color: lightgray;
+    background-color: aqua;
  }
 
